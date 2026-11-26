@@ -121,5 +121,14 @@ no trailing newline in the written file.
 - Fix for thinking_revised: this genuine revision of trial-log.md with the
   real bundle v1 + check v1 numbers above, re-committed as v2, re-bundled
   and re-checked below.
-- Bundle v2: (filled in after re-bundle)
-- Check v2: (filled in after re-check)
+- Bundle v2: `u-mang-the-printer-finally-answers-8fbf0907-bundle-v2.tar.gz`,
+  168,472 bytes, sha256
+  `a4e4a4cdfb6ddfa46f38f8f57ebc287f0497d57185d2394b8c41a57f36629cc0`
+  (commit `2a80b23a5db7ff63ad03740a6aaf586755c63782`).
+- Check v2: 13 passed / 1 failed / 5 skipped / 5 at submission.
+  thinking_reproduces 98.4% (130 of 132 counted lines authored).
+  thinking_revised PASS (trial-log.md from 2 messages).
+  Only failure: thinking_priced (0 usage rows — subagent build;
+  coordinator re-bundles with `--muse-usage` before submit).
+  Final state for coordinator: commit
+  `2a80b23a5db7ff63ad03740a6aaf586755c63782`, bundle v2 above.
